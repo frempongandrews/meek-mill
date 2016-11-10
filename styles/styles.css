@@ -78,11 +78,12 @@ body {
 .content {
     width: 70%;
     margin: 0 auto;
+    /*background-color: red;*/
 }
 
 nav {
     display: flex;
-    background-color: aqua;
+    /*background-color: aqua;*/
     justify-content: space-between;
     margin-top: 80px;
     height: 30px;
@@ -97,7 +98,7 @@ nav {
     display: flex;
     list-style: none;
     flex-grow: 2;
-    background-color: red;
+    /*background-color: red;*/
     line-height: 30px;
     justify-content: space-between;
     padding: 0px 10px;
@@ -105,6 +106,11 @@ nav {
 
 .navigation > li:first-child {
     margin-left: 240px;
+}
+
+.navigation > li> a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .search {
@@ -151,7 +157,6 @@ nav {
 .learn-more, .buy-it{
     width: 200px;
     height: 80px;
-    background-color: red;
     display: inline-block;
 }
 
@@ -177,8 +182,29 @@ nav {
 
 .learn-more>button{
     font-size: 18px;
+    font-style: italic;
+    border: 1px solid #e41a4e;
+    color: #ffffff;
+    box-shadow: 0px 3px 0px #a70e36;
+    background-color: #e41a4e;
 
 }
+
+.buy-it>button{
+    background-color: #ffffff;
+    opacity: 0.9;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 3px 0px #dcdcdc;
+}
+
+.buy-it>button:hover, .learn-more>button:hover{
+    cursor: pointer;
+}
+
+.buy-it>button{
+    /*box-shadow: 0px 3px 0px #dcdcdc;*/
+}
+
 
 .buy-it>button>span{
     position: absolute;
@@ -196,20 +222,56 @@ nav {
 
 .feature{
     display: flex;
+    justify-content: space-between;
 }
 
 .feature-item{
-    width: 370px;
+    width: 310px;
     height: 380px;
-    background-color: gray;
     margin: 50px 10px;
+    flex-grow: 1;
+    position: relative;
+    border: 2px solid white;
+    color: black;
+
+    background-color: #ffffff;
+}
+
+.feature-item:first-child{
+    margin-left: 0px;
+}
+
+.feature-item:last-child{
+    margin-right: 0px;
+}
+
+.feature-content{
+    position: absolute;
+    bottom: 15%;
+    left: 8%;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.view-button{
+    padding: 10px 20px;
+    height: 35px;
+    background-color: #e41a4e;
+    border: 1px solid #e41a4e;
+    box-shadow: 0px 3px 0px #a70e36;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    color: #ffffff;
+}
+.icon-button{
+    height: 38px;
+    position: absolute;
+    bottom: 4.5%;
+    left: 38%;
 }
 
 
-
-
-
-    /*border: 1px solid #e41a4e;*/
-
-    /*box-shadow: 0px 3px 0px #a70e36;*/
-
+.feature-1>img{
+    width: 100%;
+}
