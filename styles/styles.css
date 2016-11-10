@@ -123,6 +123,13 @@ nav {
 .search > input {
     border-radius: 10px;
     height: 25px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.search>input:focus{
+    outline: none;
+    text-indent: 10px;
 }
 
 .artist-name {
