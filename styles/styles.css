@@ -233,8 +233,8 @@ nav {
 }
 
 .feature-item{
-    width: 310px;
-    height: 380px;
+    width: 380px;
+    height: 450px;
     margin: 50px 10px;
     flex-grow: 1;
     position: relative;
@@ -254,10 +254,11 @@ nav {
 
 .feature-content{
     position: absolute;
-    bottom: 15%;
+    bottom: 20%;
     left: 8%;
     padding: 10px;
-    line-height: 30px;
+    width: 80%;
+    line-height: 25px;
 }
 
 .view-button{
@@ -267,14 +268,14 @@ nav {
     border: 1px solid #e41a4e;
     box-shadow: 0px 3px 0px #a70e36;
     position: absolute;
-    bottom: 5%;
+    bottom: 7%;
     left: 10%;
     color: #ffffff;
 }
 .icon-button{
     height: 38px;
     position: absolute;
-    bottom: 4.5%;
+    bottom: 6.7%;
     left: 38%;
 }
 
