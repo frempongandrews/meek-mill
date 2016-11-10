@@ -1,1 +1,1 @@
-An artist design website from PSD design
+A website for an artist.
