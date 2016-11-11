@@ -82,7 +82,56 @@ body {
     /*background-color: red;*/
 }
 
-.main-nav-small-screen{
+
+/*navigation on small screens*/
+
+
+.small-screen-navigation-container{
+    /*display: none;*/
+    position: fixed;
+    width: 40vw;
+    height: 40vh;
+    top: -60px;
+    left: 0px;
+    background-color: #000;
+    z-index: 10;
+    transform: translateX(-110vw);
+    transition: transform 0.6s ease-in-out;
+}
+
+.small-screen-navigation{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.small-screen-navigation li{
+    padding: 15px;
+}
+
+.small-screen-navigation li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.close-small-screen-navigation{
+    margin-left: 90%;
+    margin-top: 15px;
+    display: block;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+/* End of navigation on small screens*/
+
+
+
+
+
+
+.main-nav-small-screen-icon{
     display: none;
     font-size: 50px;
     margin: 20px;
@@ -371,7 +420,7 @@ nav {
         display: none;
     }
 
-    .main-nav-small-screen{
+    .main-nav-small-screen-icon{
         display: block;
         cursor: pointer;
     }
