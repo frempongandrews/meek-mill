@@ -356,6 +356,13 @@ nav {
 /*---------------- max-width: 600px ------------------*/
 
 @media screen and (max-width: 600px) {
+
+
+}
+
+/*---------------- max-width: 800px ------------------*/
+
+@media screen and (max-width: 800px) {
     .container{
         overflow-x: hidden;
         background-position: center center;
@@ -449,11 +456,46 @@ nav {
         bottom: 5%;
         margin-left: 30%;
     }
-
 }
 
-/*---------------- max-width: 800px ------------------*/
+@media screen and (min-width: 801px) and (max-width: 1100px){
+    .content{
+        margin: 0 10px;
+    }
 
-@media screen and (max-width: 800px) {
+    .intro{
+        margin-left: 20px;
+    }
+
+    .navigation > li>a {
+        margin: 0px 10px;
+    }
+
+
+
+
+
+
+
+    .feature {
+        min-width: calc(98vw);
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+    }
+
+    .feature-item {
+        /*height: 450px;*/
+        margin: 50px 10px;
+        background-color: #ffffff;
+        /* flex: 1 1 300px; */
+        flex-basis: 266px;
+        flex-grow: 1;
+    }
+
+    .feature-item:last-child{
+        flex-grow: 0.225;
+    }
+
 
 }
