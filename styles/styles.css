@@ -657,7 +657,9 @@ footer p>a:hover {
 
 
 @media screen and (min-width: 940px) {
-
+    .small-screen-navigation-container{
+        display: none;
+    }
 }
 
 
