@@ -9,3 +9,4 @@ $(".close-small-screen-navigation").click(function () {
         transform: "translateX(-110vw)",
     });
 });
+
