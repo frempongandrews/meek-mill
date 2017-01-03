@@ -88,7 +88,7 @@ body {
 .small-screen-navigation-container{
     position: fixed;
     width: 40vw;
-    height: 40vh;
+    height: 50vh;
     top: -60px;
     left: 0px;
     background-color: #000;
@@ -100,6 +100,7 @@ body {
     transition: transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .small-screen-navigation{
@@ -119,7 +120,7 @@ body {
 }
 
 .close-small-screen-navigation{
-    margin-left: 90%;
+    margin-left: 80%;
     margin-top: 15px;
     display: block;
     width: 20px;
@@ -636,6 +637,10 @@ footer p>a:hover {
         position: relative;
     }
 
+    .small-screen-navigation-container{
+        display: none;
+    }
+
     .search {
         position: absolute;
         top: 10px;
@@ -650,6 +655,10 @@ footer p>a:hover {
 
 }
 
+
+@media screen and (min-width: 940px) {
+
+}
 
 
 /*---------------- for navigation items margins ------------------*/
